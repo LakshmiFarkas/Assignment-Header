@@ -1,0 +1,14 @@
+.section_padding {
+  padding: 2rem;
+}
+
+.content_width {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
