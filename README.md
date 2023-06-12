@@ -1,2 +1,1 @@
-## My project
-Simple react website
+## Assignment 2
