@@ -1,0 +1,71 @@
+.app-intro {
+  background-color: var(--bg_color);
+}
+.intro-title h1 {
+  line-height: 130px;
+  font-family: "montserrat";
+  color: #003057;
+  font-size: 36px;
+  font-weight: 300;
+}
+.intro-title span {
+  font-weight: bold;
+  font-weight: 800;
+}
+.minima-right-links p {
+  margin-bottom: 0;
+}
+.app-intro-links {
+  display: flex;
+  justify-content: space-between;
+}
+.app-intro-left,
+.app-intro-right {
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+}
+.app-intro-left {
+  float: left;
+  font-weight: 600;
+}
+.app-intro-left p {
+  margin-top: revert;
+}
+
+.app-intro-right {
+  float: right;
+  display: flex;
+  gap: 14px;
+  justify-content: end;
+}
+.app-intro-right .button_wrapper:first-child button {
+  color: white !important;
+  background: #003057 !important;
+}
+
+.cleanFloat {
+  clear: both;
+}
+@media screen and (max-width: 900px) {
+  .app-intro-left,
+  .app-intro-right {
+    float: none;
+    text-align: center;
+    justify-content: center;
+  }
+  .app-intro-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-title h1 {
+    padding-top: 50px;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  .app-intro-right {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

@@ -1,0 +1,23 @@
+.component-content-wrapper {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s;
+  background-color: #f9f9f9;
+}
+.img_wrapper img {
+  width: 100%;
+}
+.component-content-wrapper p {
+  font-size: 13px;
+  color: #262628;
+  padding: 7px 0;
+}
+.component-content-wrapper:hover {
+  background-color: #f1f1f1;
+}
+.component-content-wrapper:hover button {
+  background-color: #003057;
+  color: white;
+}

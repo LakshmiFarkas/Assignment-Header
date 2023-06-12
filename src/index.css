@@ -1,14 +1,19 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: white;
-  --gold_color: #d1b000;
+  --bg_color: #f9f9f9;
 }
 html {
   background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
 }
 a {
   text-decoration: none;
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 a:hover {

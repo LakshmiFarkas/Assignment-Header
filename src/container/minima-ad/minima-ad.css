@@ -1,0 +1,136 @@
+.app-minima {
+  background-color: var(--bg_color);
+  padding: 70px 0;
+}
+.app-minima-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
+.app-minima-left {
+  display: grid;
+  background: white;
+}
+.minima-left-img img {
+  width: 100%;
+}
+.minima-left-links {
+  padding: 18px 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 18px 60px;
+}
+.minima-left-links a {
+  padding-right: 12px;
+  color: #003057;
+  font-weight: 700;
+  font-size: 12px;
+}
+.minima-left-links a svg {
+  padding-right: 3px;
+  font-size: 20px;
+}
+.minima-right-ad {
+  text-align: center;
+  color: #003057;
+  background: white;
+  padding: 20px 0;
+}
+
+.minima-right-ad span {
+  font-weight: bold;
+}
+.minima-right-ad h4 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.minima-right-ad h4,
+.minima-right-ad a {
+  color: #262628;
+}
+.minima-right-ad a {
+  text-decoration: underline;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+.minima-right-ad p {
+  font-size: 0.9em;
+}
+
+.minima-right-img {
+  margin-top: 35px;
+}
+.minima-right-img img {
+  width: 100%;
+}
+.minima-right-links {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 2fr 3fr 2fr;
+  padding: 22px 0;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.minima-right-links p,
+.minima-right-links a {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.minima-right-links .link2 {
+  text-decoration: underline;
+  font-weight: 300;
+  color: #003057;
+}
+
+.minima-right-links .link {
+  background: #003057;
+  text-decoration: none;
+  border-radius: 48px;
+  color: white;
+  font-size: 11px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  width: 130px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+}
+.minima-right-links .link svg {
+  padding-right: 6px;
+  font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+  .minima-left-links {
+    padding: 18px 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .app-minima-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+  }
+  .app-minima {
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .app-minima .content_width {
+    padding: 0;
+    padding-top: 25px;
+  }
+  .minima-left-links {
+    grid-template-columns: 1fr 1fr;
+    padding: 18px 20px;
+    gap: 10px;
+  }
+  .minima-right-links {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .app-minima {
+    padding: 0;
+  }
+}

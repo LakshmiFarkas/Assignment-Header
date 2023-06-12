@@ -1,0 +1,16 @@
+.button_wrapper button {
+  width: 150px;
+  height: 50px;
+  color: #003057;
+  background-color: white;
+  text-align: center;
+  line-height: 46px;
+  font-weight: 600;
+  border: 1px solid #003057;
+  font-size: 13px;
+  font-family: "montserrat";
+}
+.button_wrapper svg {
+  font-size: 18px;
+  margin-right: 3px;
+}

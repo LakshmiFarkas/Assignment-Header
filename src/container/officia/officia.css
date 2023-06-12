@@ -1,0 +1,64 @@
+.app-offica {
+  background-color: var(--bg_color);
+}
+.app-officia-wrapper {
+  padding: 30px 32px;
+  background-color: white;
+}
+
+.app-office-title h5 {
+  float: left;
+  color: #262628;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Montserrat";
+  padding-bottom: 18px;
+}
+.app-office-title a {
+  float: right;
+  font-family: "Montserrat";
+  font-size: 200;
+  text-decoration: underline;
+  color: #003057;
+
+  font-size: 13px;
+}
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 22px;
+}
+@media screen and (max-width: 870px) {
+  .grid-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 660px) {
+  .grid-content {
+    grid-gap: 12px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .grid-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 400px) {
+  .component-content-wrapper {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid-content {
+    grid-template-columns: 1fr;
+    grid-gap: 18px;
+  }
+  .component-content-wrapper {
+    grid-template-rows: 3fr 1fr 1fr;
+  }
+  .component-content-wrapper p {
+    padding: 8px 0px 0px 0px;
+  }
+}
